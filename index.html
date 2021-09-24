@@ -1,0 +1,485 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+        <link
+          href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Placement Training</title>
+        <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="floating-wpp.min.js"></script>
+         <link rel="stylesheet" href="floating-wpp.min.css">
+       
+        <script defer src="script.js"></script>
+      </head>
+      <body>
+
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+      {% endif %}
+    
+    {% endblock %}
+
+
+
+
+       
+        <header class="header">
+          <nav class="nav">
+           
+            <img
+              src="img/logo.jpeg"
+              alt="website logo"
+              class="nav__logo"
+              id="logo"
+              designer="afreen"
+              data-version-number="3.0"
+            />
+          
+           
+            <ul class="nav__links">
+              
+              <li class="nav__item">
+                <a class="nav__link" href="#section--1"
+                  >Home<i class="fa fa-home" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#section--2"
+                  >About Us<i class="fa fa-info" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#section--3"
+                  >Testimonials<i class="fa fa-thumbs-up" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#section--4"
+                  >Gallery<i class="fa fa-images" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#section--5"
+                  >Contact Us<i class="fa fa-phone" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+
+
+
+        <section class="section" id="section--1">
+
+          <div class="content">
+            <span>Training Cross</span>
+            <h3>
+              We Ensure A Better Training For A Better Future
+            </h3>
+            <p>
+              A group of Enthusiasts now have a vision of training
+              students that don’t have access to placement training that can
+              help them get placed, and thereby build their future.
+              <br>
+             1000+ students trained across 110+ colleges.
+            </p>
+            <span  style="font-size:25px; font-weight: 600;padding-top: 20px;" class="need">Need help?</span>
+            <a href="#section--5" class="btn">Contact Us</a> 
+            
+          </div>
+    
+          <div class="image">
+             <img src="img/Skills-1.jpg" alt="" /> 
+          </div>
+
+          <div class="row">
+            <div class="image">
+              <img src="img/placement.png" alt="" />
+            </div>
+            <div class="content">
+              <h1 class="heading"> <span>The prime</span> objective<span> of the Training Cell is:</span>
+              </h1>
+           
+              <ul>
+                <li> To look for 100% employment for all students.</li>
+                <li> To recognize the core competencies of the students.</li>
+                <li> To train the students to meet the expectations of the industry through our Career
+                  Development Programmes</li>
+                  <li>To build confidence in students and develop the right attitude in them and</li>
+                  <li> enhance their communication skills.
+                  </li>
+                 
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="content">
+              <h1 class="heading"><span> Training </span> Activities 
+             :</h1>
+       
+              <ul>
+                <li> Create awareness about “career planning" and "career mapping" among the
+                  students.</li>
+                <li> Train the students on “Personality development".</li>
+                <li> Organize Various Training Programmes to train the students in the areas of
+                  Quantitative Aptitude, Logical Reasoning and Verbal reasoning through
+                  the reputed external training organizations and in-house trainers.</li>
+                  <li>Train the students through Mock Interviews to perform well in the professional
+                    interviews as per the expectations of the corporate world.</li>
+                  <li>Train the students on group discussion techniques</li>
+                  <li> Conduct online tests and written aptitude tests.</li>
+              </ul>
+            </div>
+    
+            <div class="image">
+              <img src="img/index.jpeg" alt="" />
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="section" id="section--2">
+           <div class="main">
+             <img 
+             
+             src="img/about.jpg" alt="">
+             
+            
+             <div class="about-text">
+              <h1>About Us</h1>
+                 <p>
+                  Training Cross is an enthusiastic group intended to train
+                  students in colleges that are denied the privilege of Placement
+                  training, A group of Enthusiasts now have a vision of training
+                  students that don’t have access to placement training that can
+                  help them get placed, and thereby build their future.
+                  Placement training plays a major role in shaping up the career goals of students. It is
+                  the dream of every engineering student to get placed in a top organization visiting
+                  their campus for recruitment. Keeping this key aspect into consideration, it is realized
+                  that training is important for engineering students to enhance their employability skills
+                  and achieve good placement in various Industries.
+
+                 </p>
+                 <button type="button">Read More</button>
+                
+               </div>
+             </div>
+          
+
+
+
+
+        </section>
+
+
+
+
+
+        <section class="section" id="section--3">
+          <div class="section__title section__title--testimonials">
+            <h2 class="section__description">Not sure yet?</h2>
+            <h3 class="section__header">
+             YOU TRULY GET OUT WHAT YOU PUT IN,TRY IT NOW.
+            </h3>
+          </div>
+
+          <div class="slider">
+            <div class="slide">
+              <div class="testimonial">
+                <h5 class="testimonial__header">
+                  Best career decision ever!
+                </h5>
+                <blockquote class="testimonial__text">
+                  " Overall experience is very good. Guidelines given by trainers were excellent. If you want to optimize your Engineering skills, it's my personal suggestion to join Training Cross"
+                </blockquote>
+                <address class="testimonial__author">
+                  <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+                  <h6 class="testimonial__name">Karan Pratap Singh</h6>
+                  <p class="testimonial__location">Pune, India</p>
+                </address>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="testimonial">
+                <h5 class="testimonial__header">
+                  The First step to my success
+                </h5>
+                <blockquote class="testimonial__text">
+                  " I am satisfied with the training and training faculty.It is well designed course with practical orientation "
+                </blockquote>
+                <address class="testimonial__author">
+                  <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+                  <h6 class="testimonial__name">soniya</h6>
+                  <p class="testimonial__location">Karnataka, India</p>
+                </address>
+              </div>
+            </div>
+
+            <div class="slide">
+              <div class="testimonial">
+                <h5 class="testimonial__header">
+                  Finally got my first job ever
+                </h5>
+                <blockquote class="testimonial__text">
+                  "It has been a great experience at Training Cross for me, right from counseling to placements. Training at the institute helped me comprehend the designing tools at professional level. I would like to thank Training Cross as I got placed from the institute. Along with the software training, we were also guided for interviews and it did help me."
+                </blockquote>
+                <address class="testimonial__author">
+                  <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+                  <h6 class="testimonial__name">Chitragupt Swaroop Chitransh</h6>
+                  <p class="testimonial__location">New Dehli, India</p>
+                </address>
+              </div>
+            </div>
+
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+        </section>
+
+
+
+
+<section class="section" id="section--4">
+  <div class="slider-1">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 1</h1>
+				<p>Training Cross<br>Build A Better Future</p>
+			</div>
+			<img src="img/img2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+      <div class="txt">
+				<h1>IMAGE 2</h1>
+				<p>Training Cross<br>Build A Better Future</p>
+			</div>
+			<img src="img/img1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+      <div class="txt">
+				<h1>IMAGE 3</h1>
+				<p>Training Cross<br>Build A Better Future</p>
+			</div>
+			<img src="img/img3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+      <div class="txt">
+				<h1>IMAGE 4</h1>
+				<p>Training Cross<br>Build A Better Future</p>
+			</div>
+			<img src="img/img4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>IMAGE 5</h1>
+				<p>Training Cross<br>Build A Better Future</p>
+			</div>
+			<img src="img/img5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<!-- /fade css -->
+		
+		<!-- onclick js -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+          
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="section" id="section--5">
+          <div class="content">
+            <h2>We would love to hear it from you</h2>
+            <p>
+              Whether you have a question about training ,pricing,need a demo,
+              or anything else our team is ready to answer all your questions
+            </p>
+          </div>
+          <div class="container">
+            <div class="contactInfo">
+              <div class="box">
+                <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ></div> 
+                 <div class="text">
+                  <h3>Address</h3>
+                  <p>#4671 Sugar Camp Road,<br>Udayagiri,Mysore,<br>570018</p>
+                 </div> 
+                 </div>
+
+
+
+                   <div class="box">
+                    <div class="icon"> <i class="fa fa-phone" aria-hidden="true"></i
+                      ></div> 
+                    <div class="text">
+                      <h3>Phone</h3>
+                      <p>507-457-6789</p>
+                       </div> 
+                       </div>
+
+
+
+                       <div class="box">
+                        <div class="icon"> <i class="fa fa-envelope" aria-hidden="true"></i
+                          ></div> 
+                        <div class="text">
+                          <h3>Email</h3>
+                          <p>afreenkhan6789@gmail.com</p>
+                           </div> 
+              </div>
+
+            </div>
+
+                <div class="contactForm">
+                  <form method="POST">
+                    {% csrf_token %}
+                  
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name=""  placeholder="Full Name"  required="required">
+                        <label>Full Name</label>
+                    </div>
+                    <div class="inputBox">
+                      <input type="text" name="" placeholder="Email" required="required">
+                      <label>Email</label>
+                  </div>
+                  <div class="inputBox">
+                   <textarea name="" id="" cols="30" rows="5"  placeholder="Message"></textarea>
+                    <label>Type Your Message....</label>
+                </div>
+                <div class="inputBox">
+                  <input id="btn" type="submit" name="" required="required" value="send">
+                 
+              </div>
+                  </form>
+                </div>
+          </div>
+
+          <ul class="section__nav">
+            <li class="section__item">
+              <a class="section__link" href="#section--1">Home</a>
+            </li>
+            <li class="section__item">
+              <a class="section__link" href="#section--2">About Us</a>
+            </li>
+            <li class="section__item">
+              <a class="section__link" href="#section--3">Testimonials</a>
+            </li>
+            <li class="section__item">
+              <a class="section__link" href="#section--4">Gallery</a>
+            </li>
+            <li class="section__item">
+              <a class="section__link" href="#section--5">Contact Us</a>
+            </li>
+          </ul>
+         
+        </section>
+
+        <div id="myDiv"></div>
+
+        <footer class="footer">
+         <div class="left">
+           <img class="footer__logo" src="img/logo.jpeg" alt="">
+          <div class="share">
+            <a href="#section--1" class="fab fa-youtube"></a>
+            <a href="#section--2" class="fab fa-facebook-f"></a>
+            <a href="#section--3" class="fab fa-twitter"></a>
+            <a href="#section--4" class="fab fa-instagram"></a>
+            <a href="#section--5" class="fab fa-whatsapp"></a>
+           
+          </div>
+         
+        </div>
+        <div class="right">
+          <h2>Contact Info</h2>
+          <div class="border"></div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i
+              ></div> 
+             <div class="text">
+              <h3>Address</h3>
+              <p>#4671 Sugar Camp Road,<br>Udayagiri,Mysore,<br>570018</p>
+             </div> 
+             </div>
+
+
+
+               <div class="box">
+                <div class="icon"> <i class="fa fa-phone" aria-hidden="true"></i
+                  ></div> 
+                <div class="text">
+                  <h3>Phone</h3>
+                  <p>507-457-6789</p>
+                   </div> 
+                   </div>
+
+
+
+                   <div class="box">
+                    <div class="icon"> <i class="fa fa-envelope" aria-hidden="true"></i
+                      ></div> 
+                    <div class="text">
+                      <h3>Email</h3>
+                      <p>afreenkhan6789@gmail.com</p>
+                       </div> 
+                      
+        </div>
+        </div>
+        </footer>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
